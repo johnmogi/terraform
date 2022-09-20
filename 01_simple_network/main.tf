@@ -15,6 +15,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "wa" {
-  name     = "weightappRg"
-  location = "eastus"
+  name     = var.rg_name
+  location = var.rg_location
 }

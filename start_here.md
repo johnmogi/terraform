@@ -48,3 +48,7 @@ az storage container create --name $CONTAINER_NAME --account-name $STORAGE_ACCOU
 
 in backend.sh - changed value STORAGE_ACCOUNT_NAME=tfstatewa$RANDOM to avoid taken error.
 
+
+
+-- improving workflow with variables:
+https://www.terraform.io/language/values/variables
