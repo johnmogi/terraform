@@ -5,3 +5,5 @@ variable "rg_name" {
 variable "rg_location" {
   default = "eastus"
 }
+admin_username
+admin_password

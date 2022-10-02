@@ -1,4 +1,5 @@
 secret
+secret*
 # Local .terraform directories
 **/.terraform/*
 
