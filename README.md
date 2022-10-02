@@ -13,3 +13,5 @@ variable "admin_password" {
   default = ""
 }
 </pre>
+
+ssh-keygen -y -f weightapp.pem > weightapp.pub 
